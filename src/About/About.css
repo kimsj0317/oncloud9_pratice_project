@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Goldenbook_Light';
+    src: url(/public/font/Goldenbook_Light.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(/public/font/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url(/public/font/Gilroy-Black.ttf);
+}
+
+body {
+    background-image: url(../../public/img/bg/bg_landingpage_about_072022.jpg);
+}
+
+.title {
+    padding-top: 70px;
+    padding-left: 80px;
+    color: #ffffff;
+    font-family: 'Goldenbook_Light';
+    font-size: 100px;
+    position: absolute;
+}
+
+.explane {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Gilroy-Regular';
+}
+
+.subTitle {
+    font-size: 25px;
+    font-family: 'Gilroy-Black';
+    color: #ffffff;
+}
+
+.digitalfashion {
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.technology {
+    display: inline;
+    float: right;
+    margin-top: -350px;
+    padding-right: 100px;
+}
+
+.nftinvestment {
+    display: inline;
+    padding-top: 350px;
+    padding-left: 70px;
+}

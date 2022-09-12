@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(/public/font/Gilroy-Regular.ttf);
+}
+
+body {
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    z-index: 280;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    justify-content: space-between;
+    align-items: center;
+
+    height: 150px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.0));
+}
+
+.titleLogo {
+    margin-left: 70px;
+    margin-top: 30px;
+    max-height: 15px;
+}
+
+.subtitle {
+    font-family: 'Gilroy-Regular';
+    color: #ffffff;
+    display: inline;
+    margin-left: 30px;
+    font-size: 10pt;
+}
+
+.titles {
+    display: inline;
+    font-size: 14pt;
+    margin-left: 30px;
+}
+
+.connects {
+    position: static;
+    display: inline;
+    float: right;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.connectLogo {
+    position: static;
+    margin-left: 30px;
+    max-height: 20px;
+}

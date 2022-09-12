@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Goldenbook_Light';
+    src: url(/public/font/Goldenbook_Light.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(/public/font/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url(/public/font/Gilroy-Black.ttf);
+}
+
+.title {
+    margin-top: 70px;
+    margin-left: 80px;
+    color: #ffffff;
+    font-family: 'Goldenbook_Light';
+    font-size: 100px;
+}
+
+.teamprofile {
+    max-width: 420px;
+}
+
+.nametag {
+    color: #ffffff;
+    font-family: 'Gilroy-Regular';
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.introduce {
+    color: #ffffff;
+    font-family: 'Gilroy-Regular';
+    font-size: 22px;
+}
