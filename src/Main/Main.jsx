@@ -9,11 +9,11 @@ import Gallery from '../Gallery/Gallery'
 const unmuteClick = () => { //영상 소리 끄고 켜기
     const bgVideo = document.getElementById("video");
     if (bgVideo.muted == true) {
-        bgVideo.muted = false; document.getElementById("gifImg").src = "img/round/round_on_face_revised.gif";
+        bgVideo.muted = false; document.getElementById("gifImg").src = '{process.env.PUBLIC_URL + "/img/round/round_on_face_revised.gif"}';
     }
     else if (bgVideo.muted == false) {
         bgVideo.muted = true;
-        document.getElementById("gifImg").src = "img/round/round_off_face_revised.gif";
+        document.getElementById("gifImg").src = '{process.env.PUBLIC_URL + "/img/round/round_off_face_revised.gif"}';
     }
 }
 
@@ -24,9 +24,9 @@ function Main() {
             <div className='backgroundVideo'>
                 <div className="bgVideo">
                     <video id="video" autoplay="autoplay" muted="muted" loop>
-                        <source src="video/Web_AVANT_GARDE_M_10000.mp4" type="video/mp4" />
+                        <source src={process.env.PUBLIC_URL + "/video/Web_AVANT_GARDE_M_10000.mp4"} type="video/mp4" />
                     </video>
-                    <img id="gifImg" className="muteButton" src="img/round/round_off_face_revised.gif"
+                    <img id="gifImg" className="muteButton" src={process.env.PUBLIC_URL + "/img/round/round_off_face_revised.gif"}
                         alt="round_off" onClick={unmuteClick} />
                     <div className='scroll'>
                         <a className='scrollIcon'><span className='scrollDot' /></a>

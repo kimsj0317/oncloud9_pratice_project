@@ -23,7 +23,7 @@ function Team() {
                         borderImageSlice: '1',
 
                     }}
-                        className='teamprofile' src="img/teamprofile/teamprofile_celebchain_tyler_072622.jpg" alt="tyler" />
+                        className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_tyler_072622.jpg"} alt="tyler" />
                     <div>
                         <div className='nametag'>Tyler Lim</div>
                         <div style={width1} className='introduce'>Founder / CEO<br />
@@ -37,7 +37,7 @@ function Team() {
                         borderImage: 'linear-gradient(135deg, #5BE5EB, #CE8BB4)',
                         borderImageSlice: '1',
                     }}
-                        className='teamprofile' src="img/teamprofile/teamprofile_celebchain_helen_072622.jpg" alt="helen" />
+                        className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_helen_072622.jpg"} alt="helen" />
                     <div>
                         <div className='nametag'>Helen Cho</div>
                         <div className='introduce' style={width1}>Founder / CTO<br />
@@ -52,7 +52,7 @@ function Team() {
                         borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                         borderImageSlice: '1',
                     }}
-                        className='teamprofile' src="img/teamprofile/teamprofile_celebchain_june_072622.jpg" alt="june" />
+                        className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_june_072622.jpg"} alt="june" />
                     <div>
                         <div className='nametag'>June</div>
                         <div className='introduce' style={width1}>Creative Director<br />
@@ -67,7 +67,7 @@ function Team() {
                             borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                             borderImageSlice: '1',
                         }}
-                            className='teamprofile' src="img/teamprofile/teamprofile_celebchain_thomas_072622.jpg" alt="thomas" />
+                            className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_thomas_072622.jpg"} alt="thomas" />
                         <div>
                             <div className='nametag'>Thomas</div>
                             <div className='introduce' style={width1}>CSO</div>
@@ -79,7 +79,7 @@ function Team() {
                             borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                             borderImageSlice: '1',
                         }}
-                            className='teamprofile' src="img/teamprofile/teamprofile_celebchain_nacon_072622.jpg" alt="nacon" />
+                            className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_nacon_072622.jpg"} alt="nacon" />
                         <div>
                             <div className='nametag'>Nacon</div>
                             <div className='introduce' style={width1}>Software Engineer</div>
@@ -91,7 +91,7 @@ function Team() {
                             borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                             borderImageSlice: '1',
                         }}
-                            className='teamprofile' src="img/teamprofile/teamprofile_celebchain_torch_072622.jpg" alt="torch" />
+                            className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_torch_072622.jpg"} alt="torch" />
                         <div>
                             <div className='nametag'>Torch</div>
                             <div className='introduce' style={width1}>Software Engineer</div>
@@ -105,7 +105,7 @@ function Team() {
                             borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                             borderImageSlice: '1',
                         }}
-                            className='teamprofile' src="img/teamprofile/teamprofile_celebchain_shape_072622.jpg" alt="shape" />
+                            className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_shape_072622.jpg"} alt="shape" />
                         <div>
                             <div className='nametag'>Shape</div>
                             <div className='introduce' style={width1}>Product Manager</div>
@@ -117,7 +117,7 @@ function Team() {
                             borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                             borderImageSlice: '1',
                         }}
-                            className='teamprofile' src="img/teamprofile/teamprofile_celebchain_jj_072622.jpg" alt="jj" />
+                            className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_jj_072622.jpg"} alt="jj" />
                         <div>
                             <div className='nametag'>JJ</div>
                             <div className='introduce' style={width1}>Head of Operations</div>
@@ -129,7 +129,7 @@ function Team() {
                             borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                             borderImageSlice: '1',
                         }}
-                            className='teamprofile' src="img/teamprofile/teamprofile_celebchain_harry_072622.jpg" alt="harry" />
+                            className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_harry_072622.jpg"} alt="harry" />
                         <div>
                             <div className='nametag'>Harry</div>
                             <div className='introduce' style={width1}>Operations</div>
@@ -143,7 +143,7 @@ function Team() {
                             borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                             borderImageSlice: '1',
                         }}
-                            className='teamprofile' src="img/teamprofile/teamprofile_celebchain_jasmine_072622.jpg" alt="jasmine" />
+                            className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_jasmine_072622.jpg"} alt="jasmine" />
                         <div>
                             <div className='nametag'>Jasmine</div>
                             <div className='introduce' style={width1}>Operation</div>
@@ -155,7 +155,7 @@ function Team() {
                             borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                             borderImageSlice: '1',
                         }}
-                            className='teamprofile' src="img/teamprofile/teamprofile_celebchain_doo_072622.jpg" alt="doo" />
+                            className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_doo_072622.jpg"} alt="doo" />
                         <div>
                             <div className='nametag'>Doo</div>
                             <div className='introduce' style={width1}>Operation</div>
@@ -167,7 +167,7 @@ function Team() {
                             borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
                             borderImageSlice: '1',
                         }}
-                            className='teamprofile' src="img/teamprofile/teamprofile_celebchain_kyun_072622.jpg" alt="kyun" />
+                            className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_kyun_072622.jpg"} alt="kyun" />
                         <div>
                             <div className='nametag'>Kyun</div>
                             <div className='introduce' style={width1}>Moderator</div>

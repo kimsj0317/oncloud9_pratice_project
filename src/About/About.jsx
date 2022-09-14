@@ -13,7 +13,7 @@ function About() {
                     digital worlds including metaverses and games. Additionally, the holders will receive a continuous income stream
                     from external sales of those fashion items in the physical and digital worlds.
                 </div>
-                <img className='digitalfashion' src="img/infographic/infographic_digitalfashion_600.gif"
+                <img className='digitalfashion' src={process.env.PUBLIC_URL + "/img/infographic/infographic_digitalfashion_600.gif"}
                     alt="digitalfashion" />
                 <div className='subTitle'
                     style={{ marginTop: '-500px', paddingLeft: '900px', paddingRight: '100px' }}>
@@ -35,8 +35,8 @@ function About() {
                         creativity continuously in digital worlds.
                     </div>
                 </div>
-                <img className='technology' src="img/infographic/infographic_technology_600_high.gif" alt="technology" />
-                <img className='nftinvestment' src="img/infographic/infographic_nftinvestment_600_high.gif" alt="nftinvestment" />
+                <img className='technology' src={process.env.PUBLIC_URL + "/img/infographic/infographic_technology_600_high.gif"} alt="technology" />
+                <img className='nftinvestment' src={process.env.PUBLIC_URL + "/img/infographic/infographic_nftinvestment_600_high.gif"} alt="nftinvestment" />
                 <div className='subTitle'
                     style={{ display: 'inline', position: 'absolute', paddingTop: '500px', paddingLeft: '200px', paddingRight: '100px' }}>
                     NFT AS AN INVESTMENT
