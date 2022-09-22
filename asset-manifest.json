@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/oncloud9_pratice_project/static/css/main.d5104367.css",
-    "main.js": "/oncloud9_pratice_project/static/js/main.c57e3395.js",
+    "main.js": "/oncloud9_pratice_project/static/js/main.518829b1.js",
     "static/js/787.c0733175.chunk.js": "/oncloud9_pratice_project/static/js/787.c0733175.chunk.js",
     "static/media/bg_landingpage_about_072022.jpg": "/oncloud9_pratice_project/static/media/bg_landingpage_about_072022.9df6dc288a1a5738e78d.jpg",
     "static/media/Gilroy-Regular.ttf": "/oncloud9_pratice_project/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
@@ -9,11 +9,11 @@
     "static/media/Goldenbook_Light.otf": "/oncloud9_pratice_project/static/media/Goldenbook_Light.67ca4f0f4c1a2d4aac00.otf",
     "index.html": "/oncloud9_pratice_project/index.html",
     "main.d5104367.css.map": "/oncloud9_pratice_project/static/css/main.d5104367.css.map",
-    "main.c57e3395.js.map": "/oncloud9_pratice_project/static/js/main.c57e3395.js.map",
+    "main.518829b1.js.map": "/oncloud9_pratice_project/static/js/main.518829b1.js.map",
     "787.c0733175.chunk.js.map": "/oncloud9_pratice_project/static/js/787.c0733175.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5104367.css",
-    "static/js/main.c57e3395.js"
+    "static/js/main.518829b1.js"
   ]
 }
