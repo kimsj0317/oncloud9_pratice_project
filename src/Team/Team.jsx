@@ -44,7 +44,6 @@ function Team() {
 
     gsap.set('.null', { opacity: 1 })
 
-
     return (
         <>
             <div className='title'>TEAM</div>
@@ -168,7 +167,7 @@ function Team() {
                         className='Thomas' style={style1}>
                         <img style={{
                             border: '7px solid',
-                            borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
+                            borderImage: 'linear-gradient(135deg, #FD4037, #603FE4)',
                             borderImageSlice: '1',
                         }}
                             className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_thomas_072622.jpg"} alt="thomas" />
@@ -197,7 +196,7 @@ function Team() {
                         className='Nacon' style={style2}>
                         <img style={{
                             border: '7px solid',
-                            borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
+                            borderImage: 'linear-gradient(135deg, #6443E2, #CEA88C)',
                             borderImageSlice: '1',
                         }}
                             className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_nacon_072622.jpg"} alt="nacon" />
@@ -226,7 +225,7 @@ function Team() {
                         className='Torch' style={style2}>
                         <img style={{
                             border: '7px solid',
-                            borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
+                            borderImage: 'linear-gradient(135deg, #CDA78D, #AF45DE)',
                             borderImageSlice: '1',
                         }}
                             className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_torch_072622.jpg"} alt="torch" />
@@ -257,7 +256,7 @@ function Team() {
                         className='Shape' style={style1}>
                         <img style={{
                             border: '7px solid',
-                            borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
+                            borderImage: 'linear-gradient(135deg, #CDA78B, #59E7EC)',
                             borderImageSlice: '1',
                         }}
                             className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_shape_072622.jpg"} alt="shape" />
@@ -286,7 +285,7 @@ function Team() {
                         className='JJ' style={style2}>
                         <img style={{
                             border: '7px solid',
-                            borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
+                            borderImage: 'linear-gradient(135deg, #5BE5EB, #FA403B)',
                             borderImageSlice: '1',
                         }}
                             className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_jj_072622.jpg"} alt="jj" />
@@ -315,7 +314,7 @@ function Team() {
                         className='Harry' style={style2}>
                         <img style={{
                             border: '7px solid',
-                            borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
+                            borderImage: 'linear-gradient(135deg, #F8403B, #B047DE)',
                             borderImageSlice: '1',
                         }}
                             className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_harry_072622.jpg"} alt="harry" />
@@ -346,7 +345,7 @@ function Team() {
                         className='Jasmine' style={style1}>
                         <img style={{
                             border: '7px solid',
-                            borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
+                            borderImage: 'linear-gradient(135deg, #FD4037, #603FE4)',
                             borderImageSlice: '1',
                         }}
                             className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_jasmine_072622.jpg"} alt="jasmine" />
@@ -375,7 +374,7 @@ function Team() {
                         className='Doo' style={style2}>
                         <img style={{
                             border: '7px solid',
-                            borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
+                            borderImage: 'linear-gradient(135deg, #6443E2, #CEA88C)',
                             borderImageSlice: '1',
                         }}
                             className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_doo_072622.jpg"} alt="doo" />
@@ -404,7 +403,7 @@ function Team() {
                         className='Kyun' style={style2}>
                         <img style={{
                             border: '7px solid',
-                            borderImage: 'linear-gradient(135deg, #CE8BB4, #FC4238)',
+                            borderImage: 'linear-gradient(135deg, #CDA78D, #AF45DE)',
                             borderImageSlice: '1',
                         }}
                             className='teamprofile' src={process.env.PUBLIC_URL + "/img/teamprofile/teamprofile_celebchain_kyun_072622.jpg"} alt="kyun" />
