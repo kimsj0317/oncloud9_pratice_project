@@ -1,7 +1,32 @@
 import React from 'react';
 import './About.css'
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+// import SplitText from 'gsap/SplitText';
 
 function About() {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // gsap.from(".title", {
+    //     duration: 1,
+    //     opacity: 0,
+    //     y: 20,
+    //     ease: "circ.out",
+    //     stagger: 0.02,
+    //     scrollTrigger: {
+    //         trigger: ".title",
+    //         start: "top 50%",
+    //         end: "bottom center",
+    //         scrub: 1,
+    //     }
+    // });
+
+    // gsap.from(".explane", {
+    //     scrollTrigger: ".explane",
+    //     y: "400px",
+    //     duration: 1,
+    // })
+
     return (
         <>
             <div>
