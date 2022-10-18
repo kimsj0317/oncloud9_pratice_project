@@ -7,19 +7,19 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 function About() {
     gsap.registerPlugin(ScrollTrigger);
 
-    // gsap.from(".title", {
-    //     duration: 1,
-    //     opacity: 0,
-    //     y: 20,
-    //     ease: "circ.out",
-    //     stagger: 0.02,
-    //     scrollTrigger: {
-    //         trigger: ".title",
-    //         start: "top 50%",
-    //         end: "bottom center",
-    //         scrub: 1,
-    //     }
-    // });
+    gsap.to(".title", {
+        duration: 1,
+        opacity: 0,
+        y: -20,
+        ease: "circ.out",
+        stagger: 0.02,
+        scrollTrigger: {
+            trigger: ".title",
+            start: "top 50%",
+            end: "bottom center",
+            scrub: 1,
+        },
+    });
 
     // gsap.from(".explane", {
     //     scrollTrigger: ".explane",
